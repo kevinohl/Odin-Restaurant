@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    align-self: center;
+}
+
+#header ul {
+    display: flex;
+    justify-content: space-evenly;
+}
