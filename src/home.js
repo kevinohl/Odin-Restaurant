@@ -3,7 +3,12 @@
 // appends it to the DOM.
 
 function generateHome() {
-  return 0;
+  const homeContent = document.createElement("div");
+  homeContent.classList.add("main-container")
+  const testParagraph = document.createElement("p");
+  testParagraph.innerHTML = "OwO"
+  homeContent.appendChild(testParagraph);
+  return homeContent;
 }
 
 export default generateHome;
