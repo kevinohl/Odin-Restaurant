@@ -57,7 +57,18 @@ p {
     justify-content: center;
 }
 
+#footer {
+    background-color: var(--accent-color);
+    margin-top: 50px;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
 .main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--accent-color);
   height: 80vh;
   width: 60vw;
@@ -65,3 +76,12 @@ p {
   text-align: center;
   padding-top: 50px;
 }
+
+.sub-container {
+    background-color: var(--light-accent-color);
+    width: 80%;
+    border-radius: 30px;
+    height: 200px;
+    margin: 15px;
+}
+
